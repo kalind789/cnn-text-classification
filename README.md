@@ -10,16 +10,6 @@ This project implements a Convolutional Neural Network (CNN) for text classifica
   - **NLTK**: For text preprocessing (tokenization, stopword removal).
   - **Gensim**: For loading pre-trained Word2Vec embeddings.
 
-## Key Features
-- Implements custom tokenization and padding for uniform input size.
-- Uses the PyTorch DataLoader for efficient data loading and batching.
-- Supports dynamic sequence padding using a custom collate function.
-
-## How to Run
-1. Set up the environment using the provided `environment.yml` file.
-2. Preprocess the text data using the functions in the `notebooks` folder.
-3. Train the model using the PyTorch implementation in `src/model.py`.
-
 ## Future Improvements
 - Experimenting with different embedding techniques like GloVe or BERT.
 - Extending the model to handle multi-class classification tasks.

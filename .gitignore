@@ -6,6 +6,7 @@ __pycache__/
 # C extensions
 *.so
 
+imdb-dataset-of-50k-movie-reviews.zip
 imdb-data/
 
 # Distribution / packaging
